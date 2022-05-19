@@ -7,8 +7,8 @@ const Experience = () => {
         <div className="title">
         <h2>Mis Skills</h2>
         </div>
-        <div className="skills">
-        <ul>
+        <div>
+        <ul className="skills">
             <li><a href="."><i class="fa-brands fa-html5"></i></a></li>
             <li><a href="."><i class="fa-brands fa-css3"></i></a></li>
             <li><a href="."><i class="fa-brands fa-js"></i></a></li>

@@ -6,19 +6,21 @@ const Nav = () => {
     <div className="nav-container">
         <div className="nav-left">
             <div className="nav-name">&lt;/Nicole&gt;</div>
-            <span>toggle</span>
         </div>
         <div className="nav-right">
             <div className="nav-list">
                 <ul style={{listStyleType: 'none'}}>
-                    <li>Inicio</li>
-                    <li>Sobre mi</li>
-                    <li>Proyectos</li>
-                    <li>Experiencia</li>
+                    <li><a href=".">Inicio</a></li>
+                    <li><a href=".">About</a></li>
+                    <li><a href=".">Proyectos</a></li>
+                    <li><a href=".">Experiencia</a></li>
                 </ul>
             </div>
             <button className="button nav-button">Contáctame</button>
         </div>
+        <span className="btn-menu">
+            <i class="fa fa-bars"></i>
+        </span>
     </div>
   )
 }

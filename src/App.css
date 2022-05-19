@@ -19,7 +19,8 @@
 .button {
   border-radius: 30px;
   border: none;
-  color: #fff;
+  color: var(--black);
+  font-weight: 600;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
   background: linear-gradient(180deg, rgb(167, 244, 66) 25.71%, rgb(181, 251, 128) 99.36%);

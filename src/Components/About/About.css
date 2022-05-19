@@ -90,15 +90,21 @@
 
 @media screen and (max-width: 900px){
     .about-cards {
-        grid-template-columns: 1fr 1fr;
+        display: grid;
         gap: 3rem;      
     }
     .about-card {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
+    }
+    .about-card h4,
+    .about-card small,
+    .about-card i {
+        font-size: 16px;
+        
     }
     .about-bg-card {
-        width: 218px;
+        width: 200px;
     }
 }
 

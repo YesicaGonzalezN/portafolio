@@ -16,7 +16,7 @@ const Projects = () => {
                 <div className="img-card">
                 <img src={Aqualife} alt="Aqualife" />
                 </div>
-                <div className="content">
+                <div className="content-card">
                     <div className="details">
                         <h2>Aplicación Web</h2>
                         <h3>AquaLife</h3>
@@ -36,7 +36,7 @@ const Projects = () => {
                 <div className="img-card">
                 <img src={Lista} alt="Lista de Tareas" />
                 </div>
-                <div className="content">
+                <div className="content-card">
                     <div className="details">
                         <h2>Aplicación Web</h2>
                         <h3>Lista de Tareas</h3>
@@ -55,7 +55,7 @@ const Projects = () => {
                 <div className="img-card">
                     <img src={Calculadora} alt="Calculadora React" />
                 </div>
-                <div className="content">
+                <div className="content-card">
                     <div className="details">
                         <h2>Aplicación Web</h2>
                         <h3>Calculadora</h3>

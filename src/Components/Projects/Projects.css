@@ -1,5 +1,5 @@
 .projects {
-    height: 100vh;
+    min-height: 100vh;
 }
     
 .title {
@@ -16,8 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
-    min-height: 80vh;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 
 .card {
@@ -28,6 +28,8 @@
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0,0,0,0.15);
     transition: 0.5s;
+    margin: 100px 0;
+    
 }
 
 .card:hover {
@@ -62,7 +64,7 @@
     object-fit: cover;
 }
 
-.content {
+.content-card {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -77,27 +79,20 @@
     text-align: center;
     width: 100%;
     transition: 0.5s;
-    transform: translateY(170px);
+    transform: translateY(150px);
 }
 
-.card:hover .content .details {
+.card:hover .content-card .details {
     transform: translateY(0px);
 }
 
-.details h2, 
-.details h3 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--black);
-    line-height: 1.2rem;
-}
 
 .details h3 {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .data {
-    margin: 20px 0;
+    margin: 5px 0;
 }
 
 .btn-action {
@@ -123,4 +118,15 @@
 
 .btn-action a:hover {
     background-color: var(--green-dark);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cards {
+        width: auto;
+        max-width: 350px;
+        align-items: flex-end;
+        margin: auto;
+    }
+ 
 }
