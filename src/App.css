@@ -1,0 +1,36 @@
+:root
+{
+  --green: #b7fb64;
+    --green-dark : #a2eb42;
+    --black : #242D49;
+    --gray : #a4a4a4;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    overflow: hidden;
+    color: var(--black);  
+}
+
+.button {
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background: linear-gradient(180deg, rgb(167, 244, 66) 25.71%, rgb(181, 251, 128) 99.36%);
+  box-shadow: 9px 5px 15px 1px rgba(216, 216, 216, 0.45);
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--green);
+}
+
+  
+
+  
