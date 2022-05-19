@@ -42,11 +42,13 @@
     margin-right: 4rem;
 }
 
-.nav-list ul li {
+.nav-list ul li a {
     color: var(--black);
+    text-decoration: none;
+    width: 100px;
 }
 
-.nav-list>ul >li:hover {
+.nav-list>ul >li> a:hover {
     cursor: pointer;
     color: var(--green-dark);
 }
@@ -54,4 +56,41 @@
 .nav-button {
     flex: 2;
     margin: 10px 7px;
+}
+
+.btn-menu {
+    margin-right: 30px;
+    margin-top: 13px;
+    font-size: 25px;
+    color: var(--green-dark);
+    cursor: pointer;
+    display: none;
+}
+
+ul.show {
+    top: 65px;
+}
+
+@media screen and (max-width: 1250px){
+    .nav-list ul li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 952px) {
+    .nav-name {
+        font-size: 1rem;
+    }
+    .nav-list ul li a {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 785px) {
+    .nav-container {
+        height: 65px;
+    }
+    .btn-menu {
+        display: inline-flex;
+    }
+    
 }
