@@ -5,7 +5,6 @@ const Experience = () => {
   return (
     <div className="experience">
         <div className="title">
-        <h3>Que habilidades tengo</h3>
         <h2>Mis Skills</h2>
         </div>
         <div className="skills">

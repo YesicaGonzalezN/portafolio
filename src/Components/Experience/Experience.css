@@ -3,6 +3,10 @@
     background: #d1ff9f;
 }
 
+.title h2 {
+    margin-top: 80px;
+}
+
 ul {
     position: relative;
     display: flex;
