@@ -240,6 +240,7 @@ section .wave.wave4 {
 }
 
 @media screen and (max-width: 910px) {
+   
     .main-right {
         display: none;
     }
