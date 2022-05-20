@@ -82,15 +82,50 @@ ul.show {
         font-size: 1rem;
     }
     .nav-list ul li a {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 790px) {
     .nav-container {
         height: 65px;
     }
     .btn-menu {
         display: inline-flex;
     }
-    
+    .menu-items {
+        position: fixed;
+        width: 60%;
+        height: 80vh;
+        background: var(--green-dark);
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+    .menu-items li {
+        margin: 50px 0 0 0;
+        line-height: 30px;
+    }
+    .menu-items li:hover {
+        background: none;
+    }
+    .menu-items li a {
+        font-size: 20px;
+        color: var(--black);
+        font-weight: bold;
+    }
+    .menu-items li:hover {
+        color: red;
+        transition: .4s;
+    }  
+}
+
+@media screen and (max-width: 858px) and (orientation: landscape) {
+    .menu-items li {
+        margin: 5px 0 0 0;
+    }
+    .menu-items {
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
 }

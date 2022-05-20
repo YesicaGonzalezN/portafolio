@@ -1,9 +1,9 @@
-.contact {
+#contact {
     background: #d1ff9f;
     padding: 50px 50px;
 }
 
-.contact h2 {
+#contact h2 {
     text-align: center;
     margin-bottom: 3rem;
 }

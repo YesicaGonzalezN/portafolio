@@ -5,7 +5,7 @@ import CV from '../../assets/CVYesica Gonzalez-DesarrolloWeb.pdf';
 
 const Main = () => {
   return (
-    <div className="main">
+    <div id="main">
         <div className="main-left">
             <div className="main-name">
                 <span>Hola! Soy</span>

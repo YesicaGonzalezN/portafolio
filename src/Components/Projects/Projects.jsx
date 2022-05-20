@@ -6,7 +6,7 @@ import Calculadora from '../../img/calculadora.png';
 
 const Projects = () => {
   return (
-   <div className="projects">
+   <div id="projects">
        <div className="title">
            <h3>Proyectos</h3>
        </div>

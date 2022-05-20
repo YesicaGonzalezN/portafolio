@@ -9,14 +9,14 @@ const Nav = () => {
         </div>
         <div className="nav-right">
             <div className="nav-list">
-                <ul style={{listStyleType: 'none'}}>
-                    <li><a href=".">Inicio</a></li>
-                    <li><a href=".">About</a></li>
-                    <li><a href=".">Proyectos</a></li>
-                    <li><a href=".">Experiencia</a></li>
+                <ul className="menu-items" style={{listStyleType: 'none'}}>
+                    <li><a href="#main">Inicio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#contact">Contáctame</a></li>
                 </ul>
             </div>
-            <button className="button nav-button">Contáctame</button>
         </div>
         <span className="btn-menu">
             <i class="fa fa-bars"></i>
