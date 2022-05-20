@@ -239,67 +239,13 @@ section .wave.wave4 {
     }
 }
 
-@media screen and (max-width: 980px) {
-    .circle,
-    .img-circle {
-        width: 350px;
-        height: 350px;
-        margin-right: 50px;
-    }
-
-    .main-name>:nth-child(1) {
-        font-size: 2.5rem;
-    }
-
-    .main-name>:nth-child(2) {
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #main {
-        flex-direction: column-reverse;
-    }
-
-    .main-left {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-    }
-
+@media screen and (max-width: 910px) {
     .main-right {
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
     }
-
-    .circle,
-    .img-circle {
-        width: 280px;
-        height: 280px;
-    }
-
-    .img-circle {
-        margin-left: 2rem;
-    }
-
-    .main-name {
+    .main-left {
         text-align: center;
-    }
-
-    .main-button {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .main-icons {
-        margin-top: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    #main {
-        margin-left: auto;
-        margin-right: auto;
+        align-items: center;
+        padding-left: 0;
     }
 }
