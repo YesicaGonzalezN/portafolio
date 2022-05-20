@@ -1,7 +1,10 @@
 #main {
     display: flex;
-    height: 100vh;
+    width: 100%;
+    height: 92vh;
     background: #d1ff9f;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -68,7 +71,8 @@
 
 .main-icons>a>i {
     margin: 0 35px;
-    color: var(--green);
+    color: var(--black);
+    transition: .4s;
 }
 
 .main-icons>a>i:hover {
