@@ -30,7 +30,7 @@
     background: linear-gradient(
         45deg,
         transparent,
-        var(--green),
+        #c6ff80,
         transparent
     );
     display: grid;
@@ -41,7 +41,7 @@
 .about-card {
     width: 250px;
     height: 210px;
-    background-color: var(--green-dark);
+    background-color: #b2f15f;
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -52,12 +52,12 @@
 
 .about-card:hover {
     transform: rotate(0);
-    background-color: var(--green);
+    background-color: #c6ff80;
 }
 
 .about-card i {
     font-size: 2rem;
-    color: var(--black);
+    color: #010118;
     margin-top: 20px;
 }
 
@@ -76,7 +76,7 @@
 
 .about-text p {
     text-align: justify;
-    color: var(--black);
+    color: #010118;
     line-height: 1.6rem;
     font-size: 1.1rem;
   

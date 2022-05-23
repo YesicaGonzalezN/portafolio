@@ -5,7 +5,7 @@ footer {
 }
 
 footer a {
-    color: var(--green-dark);
+    color: #b2f15f;
     text-decoration: none;
     font-weight: 500;
 }
@@ -27,7 +27,7 @@ footer a {
 }
 
 .footer-list li a:hover {
-    color: var(--black);
+    color: #010116;
     transition: .4s;
 }
 
@@ -40,11 +40,11 @@ footer a {
 
 .footer-social i {
     font-size: 1.4rem;
-    color: var(--black);
+    color: #010116;
 }
 
 .footer-social a {
-    background: var(--green-dark);
+    background: #b2f15f;
     border-radius: 50px;
     border: 1px solid transparent;
     padding: 0.7rem;
@@ -53,6 +53,6 @@ footer a {
 }
 
 .footer-social a:hover {
-    background: var(--green);
+    background: #c6ff80;
 }
 

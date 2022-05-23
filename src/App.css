@@ -1,25 +1,12 @@
-:root
-{
-  --green: #c6ff80;
-    --green-dark : #b2f15f;
-    --black : #242D49;
-    --gray : #a4a4a4;
-    --blueCard : #DDF8FE;
-    --purple: rgb(238 210 255);
-    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
-    --orangeCard: rgba(252, 166, 31, 0.45);
-    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
-}
-
 .App{
     overflow: hidden;
-    color: var(--black);  
+    color: #010116;  
 }
 
 .button {
   border-radius: 30px;
   border: none;
-  color: var(--black);
+  color: #010116;
   font-weight: 600;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
@@ -29,7 +16,7 @@
 }
 
 .button:hover {
-  background: var(--green);
+  background: #c6ff80;
 }
 
   

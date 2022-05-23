@@ -24,7 +24,7 @@
 }
 
 .option-contact {
-    background: var(--green-dark);
+    background: #b2f15f;
     padding: 20px;
     border-radius: 1.2rem;
     text-align: center;
@@ -58,14 +58,14 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--green-dark);
+    border: 2px solid #b2f15f;
     resize: none;
-    color: var(--black);
+    color: #010116;
     font-size: 1rem;
 }
 
 ::placeholder {
-    color: var(--black);
+    color: #010116;
     font-family: 'Montserrat';
 }
 
