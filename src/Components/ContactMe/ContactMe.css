@@ -24,8 +24,7 @@
 }
 
 .option-contact {
-    background: #b2f15f;
-    padding: 20px;
+    background: #c2ff72;    padding: 20px;
     border-radius: 1.2rem;
     text-align: center;
     line-height: 1.5rem;
@@ -58,15 +57,12 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid #b2f15f;
-    resize: none;
-    color: #010116;
-    font-size: 1rem;
+    border: 2px solid #c2ff72;    resize: none;
+    color: #000635;    font-size: 1rem;
 }
 
 ::placeholder {
-    color: #010116;
-    font-family: 'Montserrat';
+    color: #000635;    font-family: 'Montserrat';
 }
 
 @media screen and (max-width: 1024px) {

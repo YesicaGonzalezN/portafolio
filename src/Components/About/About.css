@@ -30,7 +30,7 @@
     background: linear-gradient(
         45deg,
         transparent,
-        #c6ff80,
+        #d8ff8f,
         transparent
     );
     display: grid;
@@ -41,8 +41,7 @@
 .about-card {
     width: 250px;
     height: 210px;
-    background-color: #b2f15f;
-    border: 1px solid transparent;
+    background-color: #c2ff72;    border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;

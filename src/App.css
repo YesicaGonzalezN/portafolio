@@ -6,8 +6,7 @@
 .button {
   border-radius: 30px;
   border: none;
-  color: #010116;
-  font-weight: 600;
+  color: #000635;  font-weight: 600;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
   background: linear-gradient(180deg, rgb(167, 244, 66) 25.71%, rgb(181, 251, 128) 99.36%);
