@@ -5,7 +5,8 @@ footer {
 }
 
 footer a {
-    color: #c2ff72;    text-decoration: none;
+    color: #030a44;    
+    text-decoration: none;
     font-weight: 500;
 }
 
@@ -26,7 +27,8 @@ footer a {
 }
 
 .footer-list li a:hover {
-    color: #000635;    transition: .4s;
+    color: #001484;    
+    transition: .4s;
 }
 
 .footer-social {
@@ -38,10 +40,12 @@ footer a {
 
 .footer-social i {
     font-size: 1.4rem;
-    color: #000635;}
+    color: #fff;
+}
 
 .footer-social a {
-    background: #c2ff72;    border-radius: 50px;
+    background: #000635;    
+    border-radius: 50px;
     border: 1px solid transparent;
     padding: 0.7rem;
     margin: 0 1rem;
@@ -49,6 +53,6 @@ footer a {
 }
 
 .footer-social a:hover {
-    background: #c6ff80;
+    background: #001484;
 }
 

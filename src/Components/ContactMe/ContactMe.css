@@ -1,5 +1,5 @@
 #contact {
-    background: #e1ffc1;
+    background: #e2f9ff;
     padding: 50px 50px;
 }
 
@@ -24,16 +24,19 @@
 }
 
 .option-contact {
-    background: #c2ff72;    padding: 20px;
+    background: #020733;    
+    padding: 20px;
     border-radius: 1.2rem;
     text-align: center;
     line-height: 1.5rem;
     border: 1px solid transparent;
     transition: .3s;
     height: 20vh;
+    color: #fff;
 }
 .option-contact i {
     font-size: 1.3rem;
+    color:#83ffd8;
 }
 
 .option-contact h5 {
@@ -57,12 +60,15 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid #c2ff72;    resize: none;
-    color: #000635;    font-size: 1rem;
+    border: 2px solid #020733;    
+    resize: none;
+    color: #000635;    
+    font-size: 1rem;
 }
 
 ::placeholder {
-    color: #000635;    font-family: 'Montserrat';
+    color: #000635;    
+    font-family: 'Montserrat';
 }
 
 @media screen and (max-width: 1024px) {

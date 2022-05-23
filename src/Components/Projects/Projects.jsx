@@ -18,8 +18,8 @@ const Projects = () => {
                 </div>
                 <div className="content-card">
                     <div className="details">
-                        <h2>Aplicación Web</h2>
-                        <h3>AquaLife</h3>
+                        <h2>AquaLife</h2>
+                        <h3>Aplicación Web</h3>
                         <div className="data">
                         <p>Aplicación Web para calcular el agua que se debe tomar diariamente. Cuenta 
                             con un calculador de IMC.
@@ -38,8 +38,8 @@ const Projects = () => {
                 </div>
                 <div className="content-card">
                     <div className="details">
-                        <h2>Aplicación Web</h2>
-                        <h3>Lista de Tareas</h3>
+                        <h2>Lista de Tareas</h2>
+                        <h3>Aplicación Web</h3>
                         <div className="data">
                         <p>Aplicación Web para agregar notas diarias, tiene la funcionalidad de marcarlas como "realizadas" o "sin realizar".
                         </p>
@@ -57,8 +57,8 @@ const Projects = () => {
                 </div>
                 <div className="content-card">
                     <div className="details">
-                        <h2>Aplicación Web</h2>
-                        <h3>Calculadora</h3>
+                        <h2>Calculadora</h2>
+                        <h3>Aplicación Web</h3>
                         <div className="data">
                         <p>Calculadora funcional realizada puramente con React, tiene las operaciones de suma, resta, multiplicación y división.
                         </p>

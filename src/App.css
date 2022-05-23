@@ -6,16 +6,17 @@
 .button {
   border-radius: 30px;
   border: none;
-  color: #000635;  font-weight: 600;
+  color: #fff;  
+  font-weight: 600;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
-  background: linear-gradient(180deg, rgb(167, 244, 66) 25.71%, rgb(181, 251, 128) 99.36%);
-  box-shadow: 9px 5px 15px 1px rgba(216, 216, 216, 0.45);
+  background: linear-gradient(180deg,#020733 25.71%, #000c71 99.36%);
+  box-shadow: 9px 5px 15px 1px rgba(116, 116, 116, 0.45);
   cursor: pointer;
 }
 
 .button:hover {
-  background: #c6ff80;
+  background: #000c71;
 }
 
   
