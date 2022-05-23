@@ -1,6 +1,6 @@
 #experience {
     margin: 80px 0;
-    background: #d1ff9f;
+    background: #e1ffc1;
 }
 
 .title h2 {
@@ -21,7 +21,7 @@
     list-style: none;
 }
 
-.skills li a {
+.skills li {
     position: relative;
     width: 80px;
     height: 80px;
@@ -40,14 +40,14 @@
     cursor: default;
 }
 
-.skills li a:hover {
+.skills li:hover {
     color: #010116;
     transform: translateY(-20px);
     box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
     2px 24px 10px rgba(0, 0, 0, 0.1);  
 }
 
-.skills li a:before {
+.skills li:before {
     content: '';
     position: absolute;
     top: 10px;
@@ -58,7 +58,7 @@
     border: 2px solid #b2f15f;
 }
 
-.skills li a .fa-brands {
+.skills li .fa-brands {
     position: relative;
     z-index: 1;
 }
