@@ -1,1 +1,1 @@
-Portafolio Personal creado con React.
+Portafolio Personal de Nicole Gonzalez creado con React.
